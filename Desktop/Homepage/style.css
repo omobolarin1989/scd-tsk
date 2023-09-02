@@ -5,111 +5,7 @@
 }
 
 
-header {
-      background-image: url(./Images/lady-lifting_dumbells.jpg);
-      background-repeat: no-repeat;
-      width: 100%;
-      background-size: 100%;
-}
 
-header .logo-nav {
-      display: flex;
-      justify-content: space-evenly;
-}
-
-header .logo-nav .logo {
-      margin: 1% 0;
-      width: 30%;
-}
-
-header .logo-nav .logo img {
-      width: 60%;
-}
-
-header .logo-nav .nav {
-      display: flex;
-      justify-content: space-between;
-      width: 30%;
-      align-items: center;
-}
-
-header .logo-nav .nav a {
-      color: #ffffff;
-      text-decoration: none;
-      font-family: Roboto;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-}
-
-header .auth {
-      width: 30%;
-      align-items: center;
-      display: flex;
-      justify-content: space-evenly;
-}
-
-header .auth .sign-in {
-      padding: 3% 7%;
-      border-radius: 12px;
-      border: none;
-      background-color: #212738;
-      color: #ffffff;
-      font-family: Roboto;
-      font-size: 15px;
-      font-style: normal;
-      font-weight: 700;
-}
-
-header .auth .appoint {
-      padding: 3% 15%;
-      border-radius: 12px;
-      border: none;
-      background-color: #8EA604;
-      color: #ffffff;
-      font-family: Roboto;
-      font-size: 15px;
-      font-style: normal;
-      font-weight: 700;
-}
-
-header h2 {
-      margin-top: 5%;
-      color: #8EA604;
-      font-family: Roboto;
-      font-size: 56px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-}
-
-header .header-text{
-      margin: 2%;
-      width: 80%;
-}
-
-header .header-text .head-text {
-      color: white;
-      font-size: 22px;
-      font-family: Open Sans;
-      font-weight: 400;
-      word-wrap: break-word;
-      width: 40%;
-      margin: 1.8% 0;
-      font-family: 'Open Sans', sans-serif;
-}
-
-header .header-text .header-button {
-      padding: 1% 2%;
-      background-color: #8EA604;
-      color: #FFFFFF;
-      border-radius: 12px;
-      border: none;
-      font-size: 23;
-      margin-bottom: 15%;
-      margin-top: 1%;
-}
 
 main .obj-header {
       text-align: center;
@@ -141,9 +37,9 @@ main .objective .class-section2 {
       margin-bottom: 2%;
 }
 
-main .objective .class-section1 .obj-list {
-      padding: 0.8% 2%;
-      width: 17%;
+main .objective .real .class-section1 .obj-list {
+      padding: 1% 0;
+      width: 25%;
       background-color: #212738;
       color: #8EA604;
       font-size: 18px;
@@ -154,8 +50,8 @@ main .objective .class-section1 .obj-list {
 }
 
 main .objective .class-section2 .obj-list {
-      padding: 0.8% 2%;
-      width: 17%;
+      padding: 1% 2%;
+      width: 25%;
       background-color: #212738;
       color: #8EA604;
       font-size: 18px;
@@ -249,17 +145,18 @@ main .inst-profile{
       flex-direction: column;
 }
 
+main .inst-profile h2{
+      margin-top: 2%;
+}
+
 main .inst-profile .prof{
       display: flex;
       position: relative;
       justify-content: space-evenly;
 }
 
-main .inst-profile .prof .black-male,
-.black-female,
-.b-builder {
-      width: 32%;
-}
+
+
 
 main .inst-profile .black-male img {
       width: 100%;
@@ -733,6 +630,8 @@ main .more-inst {
 
       }
 
+      
+
       main .upcoming-class table tr td p span {
             font-size: 11px;
 
@@ -839,9 +738,15 @@ main .objective .real {
       align-items: center;
   }
 
-  main .objective .class-section1 .obj-list {
-      width: 90%;
-      font-size: 16px;
+  main .objective .real .class-section1 .obj-list {
+      padding: 5% 0;
+      width: 69%;
+      background-color: #212738;
+      color: #8EA604;
+      font-size: 14px;
+      font-family: Roboto;
+      border-radius: 8px;
+      border: 1px solid #212738;
   }
 
   main .objective .class-section1 .obj-list {
@@ -988,6 +893,41 @@ main .objective .real {
       width: 80%;
       display: flex;
       justify-content: center;
+  }
+
+}
+
+main .objective .class-section1 .obj-list {
+      width: 83%;
+      font-size: 14px;
+      padding: 5% 0;
+      margin: 4% 0;
+  }
+
+  @media screen and (max-width: 320px){
+  
+
+  main .objective .class-section2 .obj-list {
+      width: 83%;
+      font-size: 12px;
+      padding: 6% 0;
+      margin: 4% 0;
+  }
+
+  main .objective .real .class-section1 .obj-list {
+      padding: 6% 0;
+      width: 80%;
+      background-color: #212738;
+      color: #8EA604;
+      font-size: 11px;
+      font-family: Roboto;
+      border-radius: 8px;
+      border: 1px solid #212738;
+  }
+
+  main .upcoming-class{
+      justify-content: unset;
+      width: 5%;
   }
 
 }
