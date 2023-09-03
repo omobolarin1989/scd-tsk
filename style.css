@@ -103,6 +103,7 @@ header .header-main .hero{
 
 header .header-main .hero .hero-txt{
       align-self: center;
+      width: 50%;
 }
 
 
@@ -114,7 +115,7 @@ font-family: Manrope;
 font-weight: 800;
 line-height: 84px;
 word-wrap: break-word;
-/* width: 40%; */
+/* width: 100%; */
 
 }
 
