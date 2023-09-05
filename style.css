@@ -169,18 +169,18 @@ header .header-main .hero .hero-img{
 header .header-main .hero .hero-img .hero-img1{
      position: absolute;
      top: 50px;
-     left: -115px;
+     left: -105px;
      background-color: transparent;
-     width: 70%;
-
+     width: 60%;
+    
 }
 
 header .header-main .hero .hero-img .hero-img2{
       position: absolute;
       bottom: 30px;
-      right: -110px;
+      right: -100px;
       background-color: transparent;
-      width: 70%;
+      width: 60%;
  
  }
 
