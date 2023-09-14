@@ -1,186 +1,555 @@
-*{
+* {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-}
-
-
-
-header .header-np{
+    }
+    
+    header .header-np {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 1% 9%;
-      
-}
-
-header .header-np .header-logo{
+    }
+    
+    header .header-np .header-logo {
       width: 20%;
-
-}
-
-header .header-np .header-logo img{
+    }
+    
+    header .header-np .header-logo img {
       width: 100px;
-}
-
-header .header-np .header-nav{
+    }
+    
+    header .header-np .header-nav {
       display: flex;
       column-gap: 20px;
       align-items: center;
-     
-      
-      
-}
-
-header .header-np .header-nav .header-cont{
+    }
+    
+    header .header-np .header-nav .header-cont {
       display: flex;
       justify-content: space-between;
       text-align: center;
-}
-
-header .header-np .header-nav .header-cont hr{
+    }
+    
+    header .header-np .header-nav .header-cont hr {
       margin-right: 18px;
-}
-
-
-header .header-np .header-nav .header-cont .cont-img{
+    }
+    
+    header .header-np .header-nav .header-cont .cont-img {
       align-items: center;
       margin-top: 8px;
-}
-
-header .header-np .header-nav .header-cont .cont-img img{
-     
+    }
+    
+    header .header-np .header-nav .header-cont .cont-img img {
       width: 85%;
-      
-}
-
-header .header-np .header-nav .header-cont .contact-num .cont-num1{
+    }
+    
+    header .header-np .header-nav .header-cont .contact-num .cont-num1 {
       margin-left: 8px;
-      color: #1E1B1B;
+      color: #1e1b1b;
       font-size: 16px;
       font-family: Manrope;
       font-weight: 500;
       line-height: 24px;
       word-wrap: break-word;
       opacity: 0.7;
-}
-
-header .header-np .header-nav .header-cont .contact-num .cont-num2{
+    }
+    
+    header .header-np .header-nav .header-cont .contact-num .cont-num2 {
       margin-left: 8px;
-      color: #1E1B1B;
+      color: #1e1b1b;
       font-size: 18px;
       font-family: Manrope;
       font-weight: 600;
-      line-height: 31.50px;
-      word-wrap: break-word
-}
-
-header .header-np .header-nav nav ul{
+      line-height: 31.5px;
+      word-wrap: break-word;
+    }
+    
+    header .header-np .header-nav nav ul {
       display: flex;
       list-style: none;
       column-gap: 30px;
-}
-
-header .header-np .header-nav nav ul li a{
+    }
+    
+    header .header-np .header-nav nav ul li a {
       text-decoration: none;
-      color: #1E1B1B;
+      color: #1e1b1b;
       font-size: 16px;
       font-family: Manrope;
       font-weight: 600;
       line-height: 28px;
       width: 100%;
-
-}
-
-header .header-main{
+    }
+    
+    header .header-main {
       padding: 1% 9%;
-}
-
-header .header-main .hero{
+    }
+    
+    header .header-main .hero {
       display: flex;
       justify-content: space-between;
-     
-
-}
-
-header .header-main .hero .hero-txt{
+    }
+    
+    header .header-main .hero .hero-txt {
       align-self: center;
       width: 50%;
-}
-
-
-
-header .header-main .hero .hero-txt .hero-header1{
-      color: #1E1B1B;
-font-size: 55px;
-font-family: Manrope;
-font-weight: 800;
-line-height: 84px;
-word-wrap: break-word;
-width: 100%;
-
-}
-
-
-
-header .header-main .hero .hero-txt button{
+    }
+    
+    header .header-main .hero .hero-txt .hero-header1 {
+      color: #1e1b1b;
+      font-size: 55px;
+      font-family: Manrope;
+      font-weight: 800;
+      line-height: 84px;
+      word-wrap: break-word;
+      width: 100%;
+    }
+    
+    header .header-main .hero .hero-txt button {
       padding: 8px 30px;
-      background-color: #FF6433;
+      background-color: #ff6433;
       border-radius: 12px;
-      border: 1px solid red solid #FF6433;
+      border: 1px solid red solid #ff6433;
       border-width: 0;
       margin-top: 1%;
       color: white;
       font-size: 18px;
       font-family: Manrope;
       font-weight: 600;
-      line-height: 31.50px;
-      word-wrap: break-word
-}
-
-header .header-main .hero .hero-txt .hero-txt1{
+      line-height: 31.5px;
+      word-wrap: break-word;
+    }
+    
+    header .header-main .hero .hero-txt .hero-txt1 {
       display: flex;
       margin-top: 5%;
       column-gap: 10px;
-}
-
-header .header-main .hero .hero-txt .hero-txt1 .txt1-2 .w-o{
-      color: #939191;
-font-size: 16px;
-font-family: Manrope;
-font-weight: 500;
-line-height: 12px;
-word-wrap: break-word;
-}
-
-header .header-main .hero .hero-txt .hero-txt1 .txt1-2 .m-f{
-color: #1E1B1B;
-font-size: 18px;
-font-family: Manrope;
-font-weight: 600;
-line-height: 31.50px;
-word-wrap: break-word;
-}
-
-header .header-main .hero .hero-img{
-      position: relative;
-}
-
-header .header-main .hero .hero-img .hero-img1{
-     position: absolute;
-     top: 50px;
-     left: -105px;
-     background-color: transparent;
-     width: 60%;
+    }
     
-}
-
-header .header-main .hero .hero-img .hero-img2{
+    header .header-main .hero .hero-txt .hero-txt1 .txt1-2 .w-o {
+      color: #939191;
+      font-size: 16px;
+      font-family: Manrope;
+      font-weight: 500;
+      line-height: 12px;
+      word-wrap: break-word;
+    }
+    
+    header .header-main .hero .hero-txt .hero-txt1 .txt1-2 .m-f {
+      color: #1e1b1b;
+      font-size: 18px;
+      font-family: Manrope;
+      font-weight: 600;
+      line-height: 31.5px;
+      word-wrap: break-word;
+    }
+    
+    header .header-main .hero .hero-img {
+      position: relative;
+    }
+    
+    header .header-main .hero .hero-img .hero-img1 {
+      position: absolute;
+      top: 50px;
+      left: -105px;
+      background-color: transparent;
+      width: 60%;
+    }
+    
+    header .header-main .hero .hero-img .hero-img2 {
       position: absolute;
       bottom: 30px;
       right: -100px;
       background-color: transparent;
       width: 60%;
- 
- }
-
+    }
+    
+    main .services {
+      background-color: #e2e6e9;
+      padding: 5% 0;
+    }
+    
+    main .services .serve {
+      display: flex;
+      width: 81%;
+      margin: auto;
+      justify-content: space-between;
+    }
+    
+    main .services .serve .car-services h2 {
+      margin-bottom: 3%;
+      width: 90%;
+      color: #1e1b1b;
+      font-size: 55px;
+      font-family: Manrope;
+      font-weight: 800;
+      line-height: 76px;
+    }
+    
+    main .services .serve .car-services .car-services1 {
+      display: flex;
+      column-gap: 2%;
+    }
+    
+    main .services .serve .car-services .car-services1 .serv-logo img {
+      width: 30px;
+      padding: 8px;
+      background-color: #ffffff;
+      border-radius: 50%;
+    }
+    
+    main .services .serve .car-services .car-services1 .serve-txt .serve-txt1 {
+      color: #1e1b1b;
+      font-size: 20px;
+      font-family: Manrope;
+      font-weight: 600;
+      line-height: 36px;
+    }
+    
+    main .services .serve .car-services .car-services1 .serve-txt .serve-txt2 {
+      margin-top: 2%;
+      margin-bottom: 7%;
+      color: #706e6e;
+      font-size: 14px;
+      font-family: Manrope;
+      font-weight: 600;
+      line-height: 19px;
+      width: 51%;
+    }
+    
+    main .services .serve .car-services .know-more {
+      display: flex;
+      width: 40%;
+      margin-left: 2%;
+    }
+    
+    main .services .serve .form-services {
+      width: 50%;
+    }
+    
+    main .services .car-services .know-more p {
+      color: #1e1b1b;
+      font-size: 15px;
+      font-family: Manrope;
+      font-weight: 600;
+      line-height: 20.5px;
+      width: 100%;
+    }
+    
+    main .services .car-services .know-more a img {
+      width: 40%;
+      background-color: transparent;
+    }
+    
+    main .services .car-services .know-more a {
+      width: 80%;
+    }
+    
+    main .services .serve .form-services h2 {
+      color: #1e1b1b;
+      font-size: 45px;
+      font-family: Manrope;
+      font-weight: 700;
+      line-height: 55.2px;
+      width: 100%;
+      margin-bottom: 3%;
+    }
+    
+    main .services .serve .form-services {
+      width: 60%;
+    }
+    
+    main .services .serve .form-services form {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    main .services .serve .form-services form input {
+      margin-bottom: 1%;
+      padding: 5% 5%;
+      border: none;
+      width: 95%;
+      border-radius: 10px;
+    }
+    
+    main .services .serve .form-services button {
+      padding: 2.6% 5%;
+      background-color: #ff6433;
+      color: #ffffff;
+      margin-top: 3%;
+      border: none;
+      font-size: 15px;
+      font-family: Manrope;
+      font-weight: 600;
+      border-radius: 10px;
+    }
+    
+    main .process{
+          display: flex;
+          margin: 128px auto;
+          justify-content: space-between;
+          width: 80%;
+    }
+    
+    
+    main .process .process-1{
+         align-self: center;
+         width: 46%;
+         
+    }
+    
+    main .process .process-1 h2{
+          color: #1E1B1B;
+    font-size: 54px;
+    font-family: Manrope;
+    font-weight: 800;
+    line-height: 68px;
+    margin-bottom: 14px;
+    }
+    
+    main .process .process-1 .process-1-txt{
+          color: #1E1B1B;
+    font-size: 14px;
+    font-family: Manrope;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 25px;
+    }
+    
+    main .process .process-1 .process-button{
+          padding: 10px 35px;
+          color: white;
+    font-size: 15px;
+    font-family: Manrope;
+    font-weight: 600;
+    line-height: 31.50px;
+    background-color: #FF6433;
+    border: none;
+    border-radius: 10px;
+    }
+    
+    main .process .process-2 {
+          display: flex;
+          flex-direction: column;
+          row-gap: 20px;
+    }
+    
+    main .process .process-2 .process-2-txt1 .numb{
+          padding: 15px;
+          background-color: #661CE7;
+          border-radius: 50%;
+          text-align: center;
+          color: #ffffff;
+          align-self: center;
+    }
+    
+    main .process .process-2 .process-2-txt{
+          display: flex;
+          column-gap: 3%;
+    }
+    
+    main .process .process-2 .process-2-txt .process-2-txt11 .quote{
+    
+    
+    }
+    
+    main .process .process-2 .process-2-txt .process-2-txt11 .quote{
+    
+    color: #1E1B1B;
+    font-size: 24px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 48px;
+    }
+    
+    main .process .process-2 .process-2-txt .process-2-txt11 .quote-txt{
+          color: #6b6363;
+          font-size: 14px;
+          font-family: Manrope;
+          font-weight: 600;
+          line-height: 20px;
+          width: 50%;
+    
+    }
+    
+    main .offer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #e2e6e9;
+      
+    }
+    
+    main .offer small{
+      margin-top: 5%;
+      color: #1E1B1B;
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 600;
+    line-height: 25px;
+    }
+    
+    main .offer h3{
+      margin-top: 0.3%;
+      color: #1E1B1B;
+      font-size: 45px;
+      font-family: Manrope;
+      font-weight: 800;
+    line-height: 55px;
+    width: 48%;
+    text-align: center;
+    margin-bottom: 1.5%;
+    }
+    
+    main .offer .full-services{
+      width: 80%;
+      row-gap: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    main .offer .full-services .repairs-maintenance{
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      column-gap: 4px;
+      
+    }
+    
+    main .offer .full-services .repairs-maintenance .rep{
+      background-color: #ffffff;
+      width: 40%;
+      padding: 5% 0;
+    
+    }
+    
+    main .offer .full-services .repairs-maintenance .rep:hover{
+      background-color: #FF6433;
+      
+    }
+    
+    main .offer .full-services .repairs-maintenance .rep .off-img{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    main .offer .full-services .repairs-maintenance .rep .diag{
+      text-align: center;
+      color: #1E1B1B;
+    font-size: 18px;
+    font-family: Manrope;
+    font-weight: 600;
+    line-height: 36px;
+    }
+    
+    main .offer .full-services .repairs-maintenance .rep .diag:hover{
+      color: #ffffff;
+    }
+    
+    main .offer .learn{
+      display: flex;
+      column-gap: 2%;
+      width: 64%;
+      justify-content: flex-end;
+      padding-top: 1.2%;
+      padding-bottom: 2%;
+      align-items: center;
+    
+    }
+    
+    main .offer .learn p{
+    font-size: 18px;
+    font-family: Manrope;
+    font-weight: 600;
+    line-height: 31.50px;
+    }
+    
+    main .query{
+      width: 100%;
+      background-color: #F2F2F2;
+    }
+    
+    main .query .query-sect1{
+      display: flex;
+      width: 100%;
+      position: relative;
+      
+    }
+    
+    main .query .query-sect1 .query-img1, .query-img2{
+      width: 50%;
+    }
+    
+    main .query .query-sect1 .query-img1 img{
+      width: 100%;
+    }
+    
+    main .query .query-sect1 .query-img2 img{
+      width: 100%;
+    }
+    
+    main .query .query-sect1 .query-txt{
+      width: 40%;
+      background-color: #FF6433;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      left: 230px;
+      padding: 9.05% 0;
+    
+    }
+    
+    main .query .query-sect1 .query-txt p{
+      width: 60%;
+      margin:auto;
+      text-align: center;
+      color: white;
+    font-size: 28px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 30px;
+      
+    }
+    
+    main .query .query-sect1 .query-txt button{
+      width: 20%;
+      margin-left: 20%;
+      margin-top: 4%;
+      padding: 1% 0;
+      border: none;
+      color: white;
+    font-size: 18px;
+    font-family: Manrope;
+    font-weight: 500;
+    background-color: #1E1B1B;
+      
+    }
+    main .query .query-sect2{
+      display: flex;
+      width: 80%;
+      justify-content: space-between;
+      margin: auto;
+    }
+    
+    main .query .query-sect2 .professional .pnmb{
+      text-align: center;
+      color: #661CE7;
+    font-size: 50px;
+    font-family: Manrope;
+    font-weight: 800;
+    line-height: 70x;
+    }
+    
+    main .query .query-sect2 .professional .pnmb1{
+      color: #1E1B1B;
+    font-size: 20px;
+    font-family: Manrope;
+    font-weight: 500;
+    line-height: 28px;
+    }
