@@ -1,555 +1,1310 @@
 * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    header .header-np {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1% 9%;
-    }
-    
-    header .header-np .header-logo {
-      width: 20%;
-    }
-    
-    header .header-np .header-logo img {
-      width: 100px;
-    }
-    
-    header .header-np .header-nav {
-      display: flex;
-      column-gap: 20px;
-      align-items: center;
-    }
-    
-    header .header-np .header-nav .header-cont {
-      display: flex;
-      justify-content: space-between;
-      text-align: center;
-    }
-    
-    header .header-np .header-nav .header-cont hr {
-      margin-right: 18px;
-    }
-    
-    header .header-np .header-nav .header-cont .cont-img {
-      align-items: center;
-      margin-top: 8px;
-    }
-    
-    header .header-np .header-nav .header-cont .cont-img img {
-      width: 85%;
-    }
-    
-    header .header-np .header-nav .header-cont .contact-num .cont-num1 {
-      margin-left: 8px;
-      color: #1e1b1b;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin: auto;
+  padding: 10px 0;
+}
+
+header .header-logo {
+  align-self: center;
+}
+
+header .header-logo p {
+  font-weight: 800px;
+  font-size: 28px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 15px;
+  align-items: center;
+}
+
+header nav .navbar ul {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 25px;
+  list-style: none;
+}
+
+header nav .navbar ul li a {
+  text-decoration: none;
+  color: #1e1b1b;
+  font-size: 18px;
+  font-family: Manrope;
+  font-weight: 650;
+  line-height: 28px;
+}
+
+header nav .contact-me {
+  display: flex;
+  align-self: center;
+}
+
+header nav .contact-me .call-icon {
+  border-left: 1px solid #000000;
+  padding-left: 20px;
+  margin-right: 10px;
+  align-self: center;
+  justify-content: center;
+}
+
+header nav .contact-me .call-icon img {
+  width: 30px;
+}
+
+header nav .contact-me .cont-no {
+  align-self: center;
+  
+}
+
+header nav .contact-me .cont-no .r-asst{
+          color: #1e1b1b;
       font-size: 16px;
       font-family: Manrope;
       font-weight: 500;
       line-height: 24px;
-      word-wrap: break-word;
-      opacity: 0.7;
-    }
-    
-    header .header-np .header-nav .header-cont .contact-num .cont-num2 {
-      margin-left: 8px;
-      color: #1e1b1b;
-      font-size: 18px;
-      font-family: Manrope;
-      font-weight: 600;
-      line-height: 31.5px;
-      word-wrap: break-word;
-    }
-    
-    header .header-np .header-nav nav ul {
-      display: flex;
-      list-style: none;
-      column-gap: 30px;
-    }
-    
-    header .header-np .header-nav nav ul li a {
-      text-decoration: none;
-      color: #1e1b1b;
-      font-size: 16px;
-      font-family: Manrope;
-      font-weight: 600;
-      line-height: 28px;
-      width: 100%;
-    }
-    
-    header .header-main {
-      padding: 1% 9%;
-    }
-    
-    header .header-main .hero {
-      display: flex;
-      justify-content: space-between;
-    }
-    
-    header .header-main .hero .hero-txt {
-      align-self: center;
-      width: 50%;
-    }
-    
-    header .header-main .hero .hero-txt .hero-header1 {
-      color: #1e1b1b;
-      font-size: 55px;
-      font-family: Manrope;
-      font-weight: 800;
-      line-height: 84px;
-      word-wrap: break-word;
-      width: 100%;
-    }
-    
-    header .header-main .hero .hero-txt button {
-      padding: 8px 30px;
-      background-color: #ff6433;
-      border-radius: 12px;
-      border: 1px solid red solid #ff6433;
-      border-width: 0;
-      margin-top: 1%;
-      color: white;
-      font-size: 18px;
-      font-family: Manrope;
-      font-weight: 600;
-      line-height: 31.5px;
-      word-wrap: break-word;
-    }
-    
-    header .header-main .hero .hero-txt .hero-txt1 {
-      display: flex;
-      margin-top: 5%;
-      column-gap: 10px;
-    }
-    
-    header .header-main .hero .hero-txt .hero-txt1 .txt1-2 .w-o {
-      color: #939191;
-      font-size: 16px;
+      opacity: 0.5;
+
+}
+
+header nav .contact-me .cont-no .assist-no{
+          color: #1e1b1b;
+          font-size: 16px;
+          font-family: Manrope;
+          font-weight: 520;
+          line-height: 31.5px;
+}
+
+.container{
+          flex-direction: row;
+          width: 75%;
+          margin: auto;
+}
+
+main .vehicle-done .vehicle-done-main{
+          display: flex;
+          border: 2px solid red;
+          
+}
+
+main .vehicle-done .vehicle-done-main  .vehicle-text{
+          align-self: center;
+          width :42%;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-text .vd-btn{
+          padding: 2.3% 5%;
+          background-color: #ff6433;
+          border:2px none;
+          border-radius: 12px;
+          color: white;
+          font-size: 18px;
+          font-family: Manrope;
+          font-weight: 600;
+          line-height: 26px;
+          margin: 3% 0;
+          text-align: left;
+          
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-text .v-txt1{
+          
+          color: #1e1b1b;
+          font-size: 55px;
+          font-family: Manrope;
+          font-weight: 800;
+          line-height: 50px;
+         max-width: 100%;
+         margin-bottom: 4%;
+               
+}
+
+main .vehicle-done .vehicle-done-main  .vehicle-text .vehicle-text2{
+          display: flex;
+          column-gap: 3%;
+}
+
+main .vehicle-done-main .vehicle-done .vehicle-text .vehicle-text2 .open-time .open-time-txt1{
+          color: #939191;
+      font-size: 14.5px;
       font-family: Manrope;
       font-weight: 500;
       line-height: 12px;
-      word-wrap: break-word;
-    }
-    
-    header .header-main .hero .hero-txt .hero-txt1 .txt1-2 .m-f {
-      color: #1e1b1b;
-      font-size: 18px;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-text .vehicle-text2 .open-time .open-time-txt2{
+          color: #1e1b1b;
+      font-size: 16px;
       font-family: Manrope;
       font-weight: 600;
       line-height: 31.5px;
-      word-wrap: break-word;
-    }
-    
-    header .header-main .hero .hero-img {
-      position: relative;
-    }
-    
-    header .header-main .hero .hero-img .hero-img1 {
-      position: absolute;
-      top: 50px;
-      left: -105px;
-      background-color: transparent;
-      width: 60%;
-    }
-    
-    header .header-main .hero .hero-img .hero-img2 {
-      position: absolute;
-      bottom: 30px;
-      right: -100px;
-      background-color: transparent;
-      width: 60%;
-    }
-    
-    main .services {
-      background-color: #e2e6e9;
-      padding: 5% 0;
-    }
-    
-    main .services .serve {
-      display: flex;
-      width: 81%;
-      margin: auto;
-      justify-content: space-between;
-    }
-    
-    main .services .serve .car-services h2 {
-      margin-bottom: 3%;
-      width: 90%;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-text .vehicle-text2 .clock-icon{
+          align-self: center;
+}
+
+
+
+main  .vehicle-done .vehicle-done-main .vehicle-img{
+          background-image: url(./images/IMG-20230831-WA0037\(1\).jpg);
+          background-size: cover;
+          background-repeat: none;
+          width: 57%;
+          height: 100vh;
+          margin: 7% 0;
+          position: relative;
+
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-img img{
+width: 100%;
+align-items: flex-end;
+
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt1{
+          display: flex;
+          background-color: #ffffff;
+          border: 10px solid rgb(217, 205, 205,0.7);
+          align-items: center;
+          width: 40%;
+          height: 10%;
+          border-radius: 50px;
+          column-gap: 6%;
+          position: absolute;
+          top: 60px;
+          left: -20px;
+          
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt1 .vt-1{ 
+  background-color: green;
+          border-radius: 50%;
+          width: 23%;
+          height: 100%;
+          font-family: Manrope;
+          font-weight: 700;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+          margin-left: 7%;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt1 .vt-2{
+  font-family: Manrope;
+  font-weight: 700;
+} 
+
+main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt2{
+  border: 10px solid rgb(217, 205, 205,0.7);
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 10%;
+  display: flex;
+  border-radius: 50px;
+  background-color: #ffffff;
+  position: absolute;
+left: 380px;
+top: 500px;     
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt2 .fa-solid{
+    width: 30%;
+  }
+
+  main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt2 p{
+    font-family: manrope;
+    margin-right: 5%;
+    font-weight: bolder;
+    font-size: 12px;
+  }
+
+main .car-servicing{
+          background-color: #e2e6e9;
+          padding: 6% 0;
+}
+
+main .car-servicing .car-servicing-main{
+          display: flex;
+}
+
+main .car-servicing .car-servicing-main .servicing-text{
+          width: 50%;
+}
+
+main .car-servicing .car-servicing-main .servicing-text .car-servicing-head{
       color: #1e1b1b;
-      font-size: 55px;
-      font-family: Manrope;
-      font-weight: 800;
-      line-height: 76px;
-    }
-    
-    main .services .serve .car-services .car-services1 {
-      display: flex;
-      column-gap: 2%;
-    }
-    
-    main .services .serve .car-services .car-services1 .serv-logo img {
-      width: 30px;
-      padding: 8px;
-      background-color: #ffffff;
-      border-radius: 50%;
-    }
-    
-    main .services .serve .car-services .car-services1 .serve-txt .serve-txt1 {
-      color: #1e1b1b;
-      font-size: 20px;
-      font-family: Manrope;
-      font-weight: 600;
-      line-height: 36px;
-    }
-    
-    main .services .serve .car-services .car-services1 .serve-txt .serve-txt2 {
-      margin-top: 2%;
-      margin-bottom: 7%;
-      color: #706e6e;
-      font-size: 14px;
-      font-family: Manrope;
-      font-weight: 600;
-      line-height: 19px;
-      width: 51%;
-    }
-    
-    main .services .serve .car-services .know-more {
-      display: flex;
-      width: 40%;
-      margin-left: 2%;
-    }
-    
-    main .services .serve .form-services {
-      width: 50%;
-    }
-    
-    main .services .car-services .know-more p {
-      color: #1e1b1b;
-      font-size: 15px;
-      font-family: Manrope;
-      font-weight: 600;
-      line-height: 20.5px;
-      width: 100%;
-    }
-    
-    main .services .car-services .know-more a img {
-      width: 40%;
-      background-color: transparent;
-    }
-    
-    main .services .car-services .know-more a {
-      width: 80%;
-    }
-    
-    main .services .serve .form-services h2 {
-      color: #1e1b1b;
-      font-size: 45px;
+      font-size: 50px;
       font-family: Manrope;
       font-weight: 700;
-      line-height: 55.2px;
-      width: 100%;
-      margin-bottom: 3%;
-    }
-    
-    main .services .serve .form-services {
-      width: 60%;
-    }
-    
-    main .services .serve .form-services form {
-      display: flex;
-      flex-direction: column;
-    }
-    
-    main .services .serve .form-services form input {
-      margin-bottom: 1%;
-      padding: 5% 5%;
-      border: none;
-      width: 95%;
-      border-radius: 10px;
-    }
-    
-    main .services .serve .form-services button {
-      padding: 2.6% 5%;
-      background-color: #ff6433;
-      color: #ffffff;
-      margin-top: 3%;
-      border: none;
-      font-size: 15px;
-      font-family: Manrope;
-      font-weight: 600;
-      border-radius: 10px;
-    }
-    
-    main .process{
-          display: flex;
-          margin: 128px auto;
-          justify-content: space-between;
-          width: 80%;
-    }
-    
-    
-    main .process .process-1{
-         align-self: center;
-         width: 46%;
-         
-    }
-    
-    main .process .process-1 h2{
-          color: #1E1B1B;
-    font-size: 54px;
-    font-family: Manrope;
-    font-weight: 800;
-    line-height: 68px;
-    margin-bottom: 14px;
-    }
-    
-    main .process .process-1 .process-1-txt{
-          color: #1E1B1B;
-    font-size: 14px;
-    font-family: Manrope;
-    font-weight: 600;
-    line-height: 20px;
-    margin-bottom: 25px;
-    }
-    
-    main .process .process-1 .process-button{
-          padding: 10px 35px;
-          color: white;
-    font-size: 15px;
-    font-family: Manrope;
-    font-weight: 600;
-    line-height: 31.50px;
-    background-color: #FF6433;
-    border: none;
-    border-radius: 10px;
-    }
-    
-    main .process .process-2 {
-          display: flex;
-          flex-direction: column;
-          row-gap: 20px;
-    }
-    
-    main .process .process-2 .process-2-txt1 .numb{
-          padding: 15px;
-          background-color: #661CE7;
+      line-height: 100%;
+      text-align: left;
+      margin-bottom: 10%;
+}
+
+main .car-servicing .car-servicing-main .servicing-text .service-conv{
+display: flex;
+margin: 6% 0;
+
+}
+
+main .car-servicing .car-servicing-main .servicing-text .service-conv .serv-con-txt .in-text1{
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+letter-spacing: -0.72px;
+align-self: center;
+color: #1E1B1B;
+}
+
+main .car-servicing .car-servicing-main .servicing-text .service-conv .serv-con-txt .in-text2{
+  font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 23px;
+color: #7e7c7c;
+width: 55%;
+}
+
+main .car-servicing .servicing-text .service-conv .serv-con-logo{
+          width: 10%;
+} 
+
+main .car-servicing .servicing-text .service-conv .serv-con-logo img{
+          width:60%;
           border-radius: 50%;
-          text-align: center;
-          color: #ffffff;
+          padding: 15%;
+          background-color: #ffffff;
           align-self: center;
-    }
-    
-    main .process .process-2 .process-2-txt{
-          display: flex;
-          column-gap: 3%;
-    }
-    
-    main .process .process-2 .process-2-txt .process-2-txt11 .quote{
-    
-    
-    }
-    
-    main .process .process-2 .process-2-txt .process-2-txt11 .quote{
-    
-    color: #1E1B1B;
-    font-size: 24px;
-    font-family: Manrope;
-    font-weight: 700;
-    line-height: 48px;
-    }
-    
-    main .process .process-2 .process-2-txt .process-2-txt11 .quote-txt{
-          color: #6b6363;
-          font-size: 14px;
-          font-family: Manrope;
-          font-weight: 600;
-          line-height: 20px;
-          width: 50%;
-    
-    }
-    
-    main .offer{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      background-color: #e2e6e9;
-      
-    }
-    
-    main .offer small{
-      margin-top: 5%;
-      color: #1E1B1B;
-    font-size: 16px;
-    font-family: Manrope;
-    font-weight: 600;
-    line-height: 25px;
-    }
-    
-    main .offer h3{
-      margin-top: 0.3%;
-      color: #1E1B1B;
-      font-size: 45px;
-      font-family: Manrope;
-      font-weight: 800;
-    line-height: 55px;
-    width: 48%;
-    text-align: center;
-    margin-bottom: 1.5%;
-    }
-    
-    main .offer .full-services{
-      width: 80%;
-      row-gap: 5px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    
-    }
-    main .offer .full-services .repairs-maintenance{
-      display: flex;
-      justify-content: space-between;
-      width: 80%;
-      column-gap: 4px;
-      
-    }
-    
-    main .offer .full-services .repairs-maintenance .rep{
-      background-color: #ffffff;
-      width: 40%;
-      padding: 5% 0;
-    
-    }
-    
-    main .offer .full-services .repairs-maintenance .rep:hover{
-      background-color: #FF6433;
-      
-    }
-    
-    main .offer .full-services .repairs-maintenance .rep .off-img{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    
-    main .offer .full-services .repairs-maintenance .rep .diag{
-      text-align: center;
-      color: #1E1B1B;
-    font-size: 18px;
-    font-family: Manrope;
-    font-weight: 600;
-    line-height: 36px;
-    }
-    
-    main .offer .full-services .repairs-maintenance .rep .diag:hover{
-      color: #ffffff;
-    }
-    
-    main .offer .learn{
-      display: flex;
-      column-gap: 2%;
-      width: 64%;
-      justify-content: flex-end;
-      padding-top: 1.2%;
-      padding-bottom: 2%;
-      align-items: center;
-    
-    }
-    
-    main .offer .learn p{
-    font-size: 18px;
-    font-family: Manrope;
-    font-weight: 600;
-    line-height: 31.50px;
-    }
-    
-    main .query{
-      width: 100%;
-      background-color: #F2F2F2;
-    }
-    
-    main .query .query-sect1{
-      display: flex;
-      width: 100%;
-      position: relative;
-      
-    }
-    
-    main .query .query-sect1 .query-img1, .query-img2{
-      width: 50%;
-    }
-    
-    main .query .query-sect1 .query-img1 img{
-      width: 100%;
-    }
-    
-    main .query .query-sect1 .query-img2 img{
-      width: 100%;
-    }
-    
-    main .query .query-sect1 .query-txt{
-      width: 40%;
-      background-color: #FF6433;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      position: absolute;
-      top: 0;
-      left: 230px;
-      padding: 9.05% 0;
-    
-    }
-    
-    main .query .query-sect1 .query-txt p{
-      width: 60%;
-      margin:auto;
-      text-align: center;
-      color: white;
-    font-size: 28px;
-    font-family: Manrope;
-    font-weight: 700;
-    line-height: 30px;
-      
-    }
-    
-    main .query .query-sect1 .query-txt button{
-      width: 20%;
-      margin-left: 20%;
-      margin-top: 4%;
-      padding: 1% 0;
-      border: none;
-      color: white;
-    font-size: 18px;
-    font-family: Manrope;
-    font-weight: 500;
-    background-color: #1E1B1B;
-      
-    }
-    main .query .query-sect2{
-      display: flex;
-      width: 80%;
-      justify-content: space-between;
-      margin: auto;
-    }
-    
-    main .query .query-sect2 .professional .pnmb{
-      text-align: center;
-      color: #661CE7;
+}
+
+main .car-servicing .servicing-text .more-about{
+  display: flex;
+  margin-left: 8%;
+  align-items: center;
+  column-gap: 3%;
+}
+
+main .car-servicing .servicing-text .more-about .more-txt{ 
+  font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%;
+
+}
+
+main .car-servicing .servicing-text .more-about .proceed-arrow{
+  align-self: center;
+}
+
+main .car-servicing .servicing-form{
+  width: 50%;
+}
+
+main .car-servicing .servicing-form .form-head{
+  font-family: Manrope;
+font-size: 43px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%;
+color: #1E1B1B;
+margin-bottom: 8%;
+}
+
+main .car-servicing .car-servicing-main .servicing-form form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5%;
+
+}
+
+main .car-servicing .car-servicing-main .servicing-form form input{
+margin-bottom: 0.4%;
+padding: 2.5% 0;
+border: none;
+border-radius: 2px;
+
+
+}
+
+main .car-servicing .car-servicing-main .servicing-form form input::placeholder{
+  padding-left: 5%;
+}
+
+main .car-servicing .car-servicing-main .servicing-form .form-but{
+  background-color: #FF6433;
+  padding: 1.3% 5%;
+  color: #FFF;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 175%; 
+border: none;
+border-radius: 12px;
+}
+
+main .clear-process{
+  display: flex;
+  justify-content: space-between;
+  padding: 10% 0;
+
+}
+
+main .clear-process .clear-process-txt1{
+  width: 45%;
+  align-self: center;
+}
+
+main .clear-process .clear-process-txt2{
+  width: 45%;
+}
+
+main .clear-process .clear-process-txt1 .process-head{
+  font-family: Manrope;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: 62px;
+letter-spacing: -1.74px;
+color: #1E1B1B;
+width: 450px;
+}
+
+main .clear-process .clear-process-txt1 .para-1{
+  font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; 
+opacity: 0.6;
+width: 75%;
+}
+
+main .clear-process .clear-process-txt1 .process-but{
+  border-radius: 12px;
+background-color: #FF6433;
+color: #FFF;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 175%;
+padding: 6px 25px;
+border: none;
+margin-top: 3%;
+}
+
+main .clear-process .clear-process-txt2 .our-proceses{
+  /* display: flex; */
+}
+
+main .clear-process .clear-process-txt2 .our-proceses .process-sn{
+  display: flex;
+}
+
+main .clear-process .clear-process-txt2 .our-proceses .process-sn .sn-1{
+  background-color: #661CE7;
+  border-radius: 80%;
+  padding: 3%;
+  width: 10%;
+  text-align: center;
+  color: #ffffff;
+}
+
+main .clear-process .clear-process-txt2 .our-proceses .process-hp{
+  margin-left: 5%;
+  
+}
+
+main .clear-process .clear-process-txt2 .our-proceses .process-sn .process-header{
+  font-family: Manrope;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 150% */
+letter-spacing: -0.96px;
+color: #1E1B1B;
+margin-left: 4%;
+
+}
+
+main .clear-process .clear-process-txt2 .our-proceses .process-hp .process-para{
+  font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 175%;
+color: #1E1B1B;
+opacity: 0.6;
+margin-bottom: 3%;
+width: 80%;
+border-left: 1px dotted #FF6433;
+padding-left: 10%;
+border-color: #FF6433;
+
+}
+
+main .auto-repair{
+  background-color: #F2F2F2;
+  padding: 8% 0;
+}
+
+main .auto-repair .auto-repair-offer .auto-repair-offer-p{
+  text-align: center;
+  font-family: Manrope;
+font-size: 21px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px; 
+letter-spacing: -0.72px;
+}
+
+main .auto-repair .auto-repair-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .auto-repair .auto-repair-nav{
+  column-gap: 3%;
+}
+
+main .auto-repair .auto-repair-header .auto-repair-header-h3{
+  text-align: center;
+  font-family: Manrope;
+font-size: 47px;
+font-style: normal;
+font-weight: 800;
+line-height: 76px; 
+letter-spacing: -1.74px;
+width: 46%;
+
+}
+
+main .auto-repair .auto-repair-nav .repairs-maintenance{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  column-gap: 0.5%;
+
+}
+
+main .auto-repair .auto-repair-nav .repairs-maintenance .rep{
+  background-color: #ffffff;
+  width: 40%;
+  padding: 5% 0;
+  margin-bottom: 0.5%;
+  row-gap: 3%;
+}
+
+main .auto-repair .auto-repair-nav .repairs-maintenance .rep:hover{
+  background-color: #FF6433;
+
+}
+
+main .auto-repair .auto-repair-nav .repairs-maintenance .rep .off-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .auto-repair .auto-repair-nav .repairs-maintenance .rep .diag{
+  text-align: center;
+  margin-top: 5%;
+  font-family: Manrope;
+font-size: 21px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: -0.72px;
+color: #1E1B1B;
+}
+
+main .auto-repair .learn{
+  display: flex;
+  column-gap: 2%;
+  width: 64%;
+  justify-content: flex-end;
+  padding-top: 1.2%;
+  padding-bottom: 2%;
+  /* align-items: flex-end; */
+
+}
+
+main .auto-repair .learn p{
+font-size: 18px;
+font-family: Manrope;
+font-weight: 600;
+line-height: 31.50px;
+}
+
+main .auto-repair a{
+  align-self: center;
+}
+
+
+main .query{
+  width: 100%;
+  background-color: #F2F2F2;
+}
+
+main .query .query-sect1{
+  display: flex;
+  width: 100%;
+  position: relative;
+  
+}
+
+main .query .query-sect1 .query-img1, .query-img2{
+  width: 50%;
+}
+
+main .query .query-sect1 .query-img1 img{
+  width: 100%;
+}
+
+main .query .query-sect1 .query-img2 img{
+  width: 100%;
+}
+
+main .query .query-sect1 .query-txt{
+  width: 40%;
+  background-color: #FF6433;
+  position: absolute;
+  top: 0;
+  left: 230px;
+  padding: 8.65% 0;
+
+}
+
+main .query .query-sect1 .query-txt p{
+  width: 60%;
+  margin:auto;
+  text-align: center;
+  color: white;
+font-size: 28px;
+font-family: Manrope;
+font-weight: 700;
+line-height: 30px;
+  
+}
+
+main .query .query-sect1 .query-txt .cont-butt{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 65%;
+margin-top: 4%;
+  
+}
+
+main .query .query-sect1 .query-txt .cont-butt button{
+padding: 2% 6%;
+border: none;
+color: #ffffff;
+background-color: #1E1B1B;
+border-radius: 12px;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 175%; 
+text-align: center;
+}
+main .query .query-sect2{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+main .query .query-sect2 .professional .pnmb{
+  text-align: center;
+  color: #661CE7;
+font-size: 50px;
+font-family: Manrope;
+font-weight: 800;
+line-height: 70x;
+}
+
+main .query .query-sect2 .professional .pnmb1{
+  color: #1E1B1B;
+font-size: 20px;
+font-family: Manrope;
+font-weight: 500;
+line-height: 28px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+  .container {
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-text .v-txt1 {
+    color: #1e1b1b;
     font-size: 50px;
     font-family: Manrope;
     font-weight: 800;
-    line-height: 70x;
-    }
-    
-    main .query .query-sect2 .professional .pnmb1{
-      color: #1E1B1B;
+    line-height: 50px;
+    width: 100%;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt1 {
+  height: 15%;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt1 .vt-1 {
+  width: 20%;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-img {
+  position: relative;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt2 {
+  border: 10px solid rgb(217, 205, 205,0.7);
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 15%;
+  display: flex;
+  border-radius: 50px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 350px;
+  x: ;
+  top: 250px;
+}
+
+main .auto-repair .auto-repair-header .auto-repair-header-h3 {
+  width: 50%;
+}
+
+main .car-servicing .car-servicing-main .servicing-text .car-servicing-head {
+  font-size: 45px;
+  margin-bottom: 6%;
+}
+
+main .car-servicing .car-servicing-main .servicing-text .service-conv .serv-con-txt .in-text2 {
+  font-size: 12px;
+}
+
+main .car-servicing .servicing-text .more-about .more-txt {
+font-size: 14px;
+}
+
+main .car-servicing .car-servicing-main .servicing-form .form-but {
+  padding: 1.2% 4%;
+  font-size: 17px;
+}
+
+main .clear-process .clear-process-txt1 .process-head {
+  font-size: 45px;
+  width: 400px;
+}
+
+
+main .car-servicing .car-servicing-main .servicing-form form input {
+  margin-bottom: 0.4%;
+  padding: 2.5%;
+}
+
+main .car-servicing .car-servicing-main .servicing-text .service-conv .serv-con-txt .in-text1 {
+  font-family: Manrope;
+  font-size: 18px;
+}
+
+main .car-servicing .servicing-form .form-head {
+  font-family: Manrope;
+  font-size: 39px;
+  margin-bottom: 5%;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-text .vehicle-text2 .open-time .open-time-txt2 {
+  color: #1e1b1b;
+  font-size: 14px;
+
+}
+
+main .query .query-sect1 .query-txt {
+
+  padding: 6.15% 0;
+
+  }
+}
+
+@media screen and (max-width: 944px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+  header {
+   width: 90%;
+  }
+
+  header .header-logo p {
+    font-weight: 600px;
+    font-size: 26px;
+}
+
+header nav .navbar ul {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+}
+
+header nav .navbar ul li a {
+  font-size: 16px;
+}
+
+header nav .contact-me .cont-no .r-asst {
+  line-height: 15px;
+  font-size: 12px;
+}
+
+header nav .contact-me .cont-no .assist-no {
+
+  font-size: 13px;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-text .v-txt1 {
+  color: #1e1b1b;
+  font-size: 35px;
+  font-family: Manrope;
+  font-weight: 800;
+  line-height: 40px;
+  width: 100%;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-text .vd-btn {
+  padding: 1.8% 3.5%;
+  font-size: 15px;
+  margin: 3% 0;
+  text-align: left;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-text .vehicle-text2 .open-time .open-time-txt2 {
+  color: #1e1b1b;
+  font-size: 11px;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt1 .vt-1 {
+  width: 30%;
+  border-radius: 50%;
+}
+
+main .car-servicing .car-servicing-main .servicing-text .car-servicing-head {
+  font-size: 38px;
+  margin-bottom: 6%;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt1 .vt-2 {
+font-size: 12px;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt2 {
+  border: 10px solid rgb(217, 205, 205,0.7);
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 15%;
+  display: flex;
+  border-radius: 50px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 250px;
+  top: 250px;
+}
+
+main .car-servicing .servicing-form .form-head {
+  font-size: 35;
+  text-align: center;
+}
+
+main .car-servicing .car-servicing-main .servicing-text .service-conv .serv-con-txt .in-text2 {
+width: 80%;
+}
+
+main .clear-process .clear-process-txt1 .process-head {
+  font-size: 40px;
+  width: 100%;
+}
+
+main .clear-process .clear-process-txt2 .our-proceses .process-sn .sn-1 {
+  background-color: #661CE7;
+  border-radius: 80%;
+  padding: 4.6%;
+  width: 15%;
+  text-align: center;
+  color: #ffffff;
+}
+
+main .clear-process .clear-process-txt2 .our-proceses .process-hp .process-para {
+font-size: 13px;
+width: 90%;
+}
+
+main .auto-repair .auto-repair-header .auto-repair-header-h3 {
+width: 80%;
+font-size: 40px;
+line-height: 50px;
+}
+
+main .auto-repair .auto-repair-nav .repairs-maintenance .rep .diag {
+font-size: 18px;
+}
+
+main .auto-repair .auto-repair-nav .repairs-maintenance {
+  width: 85%;
+}
+
+main .query .query-sect1 .query-txt {
+  padding: 7.222% 0;
+}
+
+main .query .query-sect1 .query-txt p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+main .query .query-sect1 .query-txt .cont-butt {
+
+ display: flex;
+ justify-content: center;
+ width: 100%;
+}
+
+main .query .query-sect2 {
+width: 90%;
+}
+
+main .query .query-sect2 .professional .pnmb {
+  font-size: 35px;
+}
+main .query .query-sect2 .professional .pnmb1 {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 425px) {
+
+  header .header-logo p {
+    font-weight: 600px;
     font-size: 20px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  column-gap: 10px;
+  align-items: center;
+}
+
+header nav .navbar ul {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 12px;
+}
+
+header nav .navbar ul li a {
+  font-size: 12px;
+}
+
+header nav .contact-me .call-icon {
+  border-left: none;
+}
+
+header nav .contact-me .call-icon img {
+  width: 20px;
+}
+
+header nav .contact-me .cont-no .r-asst {
+  line-height: 7px;
+  font-size: 10px;
+}
+
+header nav .contact-me .cont-no .assist-no {
+  font-size: 11px;
+}
+
+header nav .contact-me {
+  width: 100%;
+  justify-content: flex-end;
+}
+
+main .vehicle-done .vehicle-done-main {
+flex-direction: column-reverse;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-img {
+width: 100%;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-text {
+width: 100%;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-text .v-txt1 {
+font-size: 25px;
+text-align: center;
+line-height: 25px;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-text .vd-btn {
+width: 50%;
+margin: auto;
+display: flex;
+text-align: center;
+justify-content: center;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-text .vehicle-text2 .clock-icon{
+
+  display: none;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-text .vehicle-text2{
+  justify-content: space-between;
+}
+
+main .car-servicing .car-servicing-main{
+  flex-direction: column;
+}
+
+main .car-servicing .car-servicing-main .servicing-text .service-conv .serv-con-txt .in-text1{
+  display: none;
+}
+
+main .car-servicing .car-servicing-main .servicing-text .service-conv .serv-con-txt .in-text2{
+  display: none;
+}
+
+main .car-servicing .servicing-text .service-conv .serv-con-logo img{
+  display: none;
+}
+
+main .car-servicing .car-servicing-main .servicing-text {
+width: 100%;
+}
+
+main .car-servicing .car-servicing-main .servicing-text .car-servicing-head {
+    font-size: 25px;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+main .car-servicing .servicing-text .more-about {
+display: none;
+}
+
+main .car-servicing .car-servicing-main .servicing-text .service-conv {
+margin: 0;
+  }
+
+  
+main .car-servicing .servicing-form {
+width: 100%;
+  }
+
+  main .car-servicing .servicing-form .form-head {
+    font-size: 21px;
+  }
+
+  main .car-servicing .car-servicing-main .servicing-form .form-but {
+    padding: 1% 3.3%;
+    font-size: 15px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+main .clear-process {
+flex-direction: column-reverse;
+}
+
+main .clear-process .clear-process-txt2 {
+width: 100%;
+}
+
+main .clear-process .clear-process-txt2 .our-proceses .process-sn .sn-1 {
+  background-color: #661CE7;
+  border-radius: 100%;
+  width: 30%;
+  height: 30%;
+}
+
+main .clear-process .clear-process-txt2 {
+  width: 100%;
+}
+
+main .clear-process .clear-process-txt2 .our-proceses .process-sn .sn-1 {
+    border-radius: 50%;
+    width: 5%;
+    height: 5%;
+    /* text-align: center; */
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+}
+
+main .clear-process .clear-process-txt1 {
+width: 100%;
+}
+
+main .clear-process .clear-process-txt1 .process-head {
+  font-size: 30px;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+}
+
+
+main .clear-process .clear-process-txt1 .para-1{
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+main .clear-process .clear-process-txt1 .process-but {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 175%;
+  padding: 5px 20px;
+  border: none;
+  margin-top: 3%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+main .auto-repair .auto-repair-offer .auto-repair-offer-p {
+font-size: 16px;
+}
+
+main .auto-repair .auto-repair-header .auto-repair-header-h3 {
+    font-size: 25px;
+    line-height: 30px;
+    width: 100%;
+}
+
+main .auto-repair .auto-repair-nav .repairs-maintenance {
+  width: 85%;
+  flex-direction: column;
+}
+
+main .auto-repair .auto-repair-nav {
+display: flex;
+width: 90%;
+justify-content: space-between;
+margin: auto;
+  }
+
+  main .auto-repair .auto-repair-nav .repairs-maintenance .rep {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 5% 0;
+    margin-bottom: 0.5%;
+    row-gap: 3%;
+}
+
+main .auto-repair .auto-repair-nav .repairs-maintenance .rep .diag {
+  font-size: 15px;
+}
+
+main .query .query-sect1 .query-txt {
+    width: 40%;
+    background-color: #FF6433;
+    position: absolute;
+    top: 0;
+    left: 120px;
+    padding: 5.1% 0;
+}
+
+main .auto-repair .learn p {
+    font-size: 15px;
+}
+
+main .query .query-sect1 .query-txt p {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+}
+
+main .query .query-sect1 .query-txt .cont-butt button {
+    font-size: 10px;
+}
+
+main .query .query-sect2 .professional .pnmb {
+    font-size: 22px;
+}
+
+
+main .query .query-sect2 .professional .pnmb1 {
+    font-size: 12px;
+}
+
+main .query .query-sect2 {
+    width: 95%;
+}
+
+}
+
+@media screen and (max-width: 375px) {
+
+  main .clear-process .clear-process-txt1 .process-head{
+    margin-top: 3%;
+  }
+
+  main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt2 {
+    left: 200px;
+  }
+
+  main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt1 {
+    left: 0;
+  }
+
+  main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt1 .vt-1 {
+width: 30%;
+font-size: 13px;
+  }
+
+  main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt2 p {
+margin-right: 0;
+font-size: 9px;
+  }
+
+  main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt1 .vt-2 {
+    font-size: 10px;
+}
+
+  main .query .query-sect1 .query-txt{
+    padding: 1.5% 0;
+  }
+
+  main .query .query-sect2 .professional .pnmb {
+    font-size: 17px;
+}
+
+main .query .query-sect2 .professional .pnmb1 {
+line-height: 17px;
+font-size: 10px;
+}
+
+main .query .query-sect2 {
+    width: 100%;
+}
+
+main .query .query-sect2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main .query .query-sect2 .professional .pnmb1 {
+  line-height: 17px;
+  font-size: 13px;
+  text-align: center;
+}
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+  header {
+    width: 98%;
+}
+
+main .vehicle-done .vehicle-done-main .vehicle-img .vehicle-img-txt2 {
+  left:170px !important;
+}
+
+main .clear-process .clear-process-txt2 .our-proceses .process-hp .process-para {
+text-align: center;
+}
+
+main .clear-process .clear-process-txt2 .our-proceses .process-sn .process-header {
+text-align: center;
+}
+
+header nav .navbar ul li a {
+    font-size: 9px;
+}
+
+main .query .query-sect1 .query-txt {
+padding: 0;
+}
+main .auto-repair .learn p {
+    font-size: 10px;
+}
+
+main .auto-repair .auto-repair-nav .repairs-maintenance .rep .diag {
+    font-size: 13px;
+}
+
+main .auto-repair .auto-repair-header .auto-repair-header-h3 {
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    letter-spacing: 0.5px;
+}
+
+main .clear-process .clear-process-txt1 .process-head {
+    font-size: 25px;
+    letter-spacing: 0.5px;
+}
+
+main .clear-process .clear-process-txt2 .our-proceses .process-sn .process-header {
     font-family: Manrope;
-    font-weight: 500;
-    line-height: 28px;
-    }
+    font-size: 18px;
+}
+
+main .query .query-sect2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main .query .query-sect2 .professional .pnmb1 {
+  line-height: 17px;
+  font-size: 13px;
+  text-align: center;
+}
+
+}
